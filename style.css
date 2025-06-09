@@ -1,104 +1,169 @@
+/* Estilos generales para todo el cuerpo de la página */
 body {
+    /* Fuente principal para el texto */
     font-family: Arial, sans-serif;
+    /* Quitar margen por defecto del navegador */
     margin: 0;
+    /* Quitar relleno por defecto del navegador */
     padding: 0;
 }
 
+/* Contenedor principal que centra y limita el ancho del contenido */
 .container {
+    /* El ancho será el 80% del ancho de la ventana */
     width: 80%;
+    /* Centra horizontalmente con margen automático */
     margin: 0 auto;
+    /* Espacio vertical arriba y abajo */
     padding: 20px 0;
 }
 
+/* Estilo del encabezado (header) */
 header {
+    /* Color de fondo -- Fondo oscuro */
     background-color: #333;
+    /* Color de texto blanco */
     color: #fff;
+    /* Centrar texto */
     text-align: center;
+    /* Espaciado vertical dentro del header */
     padding: 100px 0;
 }
 
+/* Estilo para el título principal dentro del header */
 header h1 {
+    /* Tamaño grande para el texto */
     font-size: 2.5em;
 }
 
+/* Estilo para botones o enlaces con clase btn */
 .btn {
+    /* Mostrar como elemento en línea con propiedades de bloque */
     display: inline-block;
+    /* Color de fondo azul */
     background-color: #007bff;
+    /* Texto en blanco */
     color: #fff;
+    /* Espaciado interno */
     padding: 10px 20px;
+    /* Quitar subrayado del enlace */
     text-decoration: none;
+    /* Bordes redondeados */
     border-radius: 5px;
+    /* Transición suave para cambio de color */
     transition: background-color 0.3s ease;
 }
 
+/* Cambio de color cuando se pasa el mouse por encima del botón */
 .btn:hover {
     background-color: #0056b3;
 }
 
+/* Estilo para las secciones */
 section {
+    /* Espaciado vertical arriba y abajo */
     padding: 50px 0;
 }
 
+/* Estilo para los títulos de segundo nivel */
 h2 {
+    /* Centrar texto */
     text-align: center;
 }
 
+/* Estilo para cada característica */
 .feature {
+    /* Centrar texto dentro de cada característica */
     text-align: center;
+    /* Margen inferior para separar características */
     margin-bottom: 30px;
 }
 
+/* Estilo para subtítulos dentro de las características */
 .feature h3 {
+    /* Tamaño de fuente mediano */
     font-size: 1.5em;
 }
 
+/* Estilo para bloques de testimonios */
 .testimonial {
+    /* Fondo claro */
     background-color: #f9f9f9;
+    /* Espaciado interno */
     padding: 20px;
+    /* Bordes redondeados */
     border-radius: 5px;
+    /* Margen inferior para separar testimonios */
     margin-bottom: 30px;
 }
 
+/* Estilo para el texto del testimonio */
 .testimonial p {
+    /* Texto en cursiva para resaltar */
     font-style: italic;
 }
 
+/* Estilo para el autor del testimonio */
 .testimonial cite {
+    /* Texto en negrita */
     font-weight: bold;
 }
 
+/* Estilo para el formulario */
 form {
+    /* Ancho máximo del formulario */
     max-width: 600px;
+    /* Centrar formulario */
     margin: 0 auto;
 }
 
+/* Estilo para campos de texto y textarea */
 input[type="text"],
 input[type="email"],
 textarea {
+    /* Ancho completo del contenedor */
     width: 100%;
+    /* Espaciado interno */
     padding: 10px;
+    /* Espacio inferior para separar elementos */
     margin-bottom: 20px;
+    /* Bordes redondeados */
     border-radius: 5px;
+    /* Borde gris claro */
     border: 1px solid #ccc;
 }
 
+/* Estilo para el botón de envío */
 button[type="submit"] {
+    /* Fondo azul */
     background-color: #007bff;
+    /* Texto blanco */
     color: #fff;
+    /* Sin borde */
     border: none;
+    /* Espaciado interno */
     padding: 10px 20px;
+    /* Bordes redondeados */
     border-radius: 5px;
+    /* Cambia el cursor a puntero al pasar sobre el botón */
     cursor: pointer;
+    /* Transición suave para cambio de color */
     transition: background-color 0.3s ease;
 }
 
+/* Cambio de color del botón al pasar el mouse */
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+/* Estilo para el pie de página */
 footer {
+    /* Fondo oscuro */
     background-color: #333;
+    /* Texto blanco */
     color: #fff;
+    /* Texto centrado */
     text-align: center;
+    /* Espaciado vertical */
     padding: 20px 0;
 }
