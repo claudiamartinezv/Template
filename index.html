@@ -1,32 +1,57 @@
+<!-- Documento HTML -->
 <!DOCTYPE html>
+<!-- Inicio documento HTML con idioma español -->
 <html lang="es">
+<!-- Contiene metadatos y enlaces a recursos como CSS, título, codificación, etc. -- No se muestra en la página -->
 <head>
+    <!-- Configuración de codificación de caracteres -->
     <meta charset="UTF-8">
+    <!-- Configuración para diseño responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página que aparece en la pestaña del navegador -->
     <title>Landing Page</title>
+     <!-- Vínculo con la hoja de estilos externa css -->
     <link rel="stylesheet" href="style.css">
+<!-- Fin del encabezado del documento -->
 </head>
+
+<!-- Inicio del cuerpo del documento: aquí va todo el contenido visible de la página -->
 <body>
 
+<!-- Encabezado principal de la página, normalmente contiene el logo, título o menú -->
 <header>
+    <!-- Contenedor que centra y ajusta el ancho del contenido en la página -->
+    <!-- Clase reutilizable para aplicar estilos comunes a secciones -->
     <div class="container">
+        <!-- Título principal de la página -->
         <h1>¡Bienvenido a nuestra página!</h1>
+        <!-- Descripción breve debajo del título -->
+        <!-- <p> Párrafo de texto que describe una idea, característica o mensaje -->
         <p>Sitio web de muestra para una empresa ficticia</p>
+        <!-- Botón que lleva a la sección de características #features -->
         <a href="#features" class="btn">Ver características</a>
     </div>
 </header>
 
+<!-- Sección de características -->
+<!-- ID único para la sección de características, ancla del enlace #features -->
 <section id="features">
     <div class="container">
+        <!-- <h2> Título de la sección de características principales -->
         <h2>Características principales</h2>
+        <!-- Cada característica está dentro de un div con clase feature para aplicar estilos específicos -->
+        <!-- Característica 1 -->
         <div class="feature">
+            <!-- <h3> Subtítulo de tercer nivel, usado para destacar una característica específica -->
             <h3>Facilidad de uso</h3>
             <p>Nuestra plataforma es fácil de usar para cualquier persona, sin importar su experiencia.</p>
         </div>
+        <!-- Característica 2 -->
         <div class="feature">
             <h3>Diseño moderno</h3>
             <p>Nuestro diseño está actualizado con las últimas tendencias para brindar la mejor experiencia al usuario.</p>
         </div>
+        <!-- Característica 3 -->
         <div class="feature">
             <h3>Soporte 24/7</h3>
             <p>Ofrecemos soporte técnico las 24 horas del día, los 7 días de la semana, para ayudarte en cualquier momento.</p>
@@ -34,13 +59,21 @@
     </div>
 </section>
 
+<!-- Sección de testimonios de clientes -->
+<!-- ID único para la sección de testimonios -->
 <section id="testimonials">
     <div class="container">
+        <!-- Título de la sección de testimonios -->
         <h2>Testimonios</h2>
+        <!-- Cada testimonio está dentro de un div con clase testimonial -->
+        <!-- Testimonio 1 -->
         <div class="testimonial">
+            <!-- Texto del testimonio -->
             <p>"¡Increíble servicio! ¡Gracias por hacer mi vida más fácil!"</p>
+            <!-- <cite> Nombre del autor del testimonio, cita -->
             <cite>- Cliente feliz</cite>
         </div>
+        <!-- Testimonio 2 -->
         <div class="testimonial">
             <p>"Nunca pensé que encontraría una solución tan genial. ¡Recomendado al 100%!"</p>
             <cite>- Otro cliente satisfecho</cite>
@@ -48,23 +81,36 @@
     </div>
 </section>
 
+<!-- Sección de contacto con formulario -->
+<!-- ID único para la sección de contacto -->
 <section id="contact">
     <div class="container">
+        <!-- Título de la sección de contacto -->
         <h2>Contacto</h2>
+        <!-- Formulario de contacto -->
         <form action="#" method="post">
+            <!-- Campo de texto para el nombre, obligatorio con atributo required -->
+            <!-- 'placeholder' Texto guía dentro del campo, que desaparece cuando el usuario escribe -->
             <input type="text" name="name" placeholder="Nombre" required>
+            <!-- Campo para correo electrónico, también obligatorio y con validación tipo email -->
             <input type="email" name="email" placeholder="Correo electrónico" required>
+            <!-- Área de texto para que el usuario escriba su mensaje, obligatorio -->
             <textarea name="message" placeholder="Mensaje" required></textarea>
+            <!-- Botón para enviar el formulario -->
             <button type="submit" class="btn">Enviar mensaje</button>
         </form>
     </div>
 </section>
 
+<!-- Pie de página -->
 <footer>
     <div class="container">
+        <!-- Mensaje de derechos reservados -->
         <p>&copy; 2025 Compañía XYZ. Todos los derechos reservados.</p>
     </div>
 </footer>
 
+<!-- Fin del cuerpo del documento -->
 </body>
+<!-- Fin del documento HTML -->
 </html>
